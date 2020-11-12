@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <% productos.forEach(producto => { %>
+            <li> <%= producto.nombre %>
+                <button onclick="window.location.href='/productos/productEdit/<%= producto.id %>'" >Editar Producto</button>
+                <button onclick="window.location.href='/productos/productDelete/<%= producto.id %>'" >Borrar Producto</button> 
+            </li>   
+        <% }); %>
+    </ul>
+</body>
+</html>

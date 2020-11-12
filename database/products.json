@@ -1,0 +1,50 @@
+[
+    {
+        "id": "2",
+        "nombre": "gfdfd",
+        "precio": "645654",
+        "descripcion": "yyyyyyyyyyyyyyyy",
+        "marca": "motoyota",
+        "stock": "3"
+    },
+    {
+        "id": "3",
+        "nombre": "garbarino",
+        "precio": "564",
+        "descripcion": "fdsdsf",
+        "marca": "qqqq",
+        "stock": "567756"
+    },
+    {
+        "id": "4",
+        "nombre": "oahora",
+        "precio": "4230",
+        "descripcion": "fsd",
+        "marca": "qqqq",
+        "stock": "567756"
+    },
+    {
+        "id": "5",
+        "nombre": "garbarino",
+        "precio": "330",
+        "descripcion": "iuyuiy",
+        "marca": "qqqq",
+        "stock": "567756"
+    },
+    {
+        "id": "6",
+        "nombre": "fabre",
+        "precio": "0",
+        "descripcion": "fdsdsf",
+        "marca": "ytt",
+        "stock": "567756"
+    },
+    {
+        "id": "7",
+        "nombre": "holi",
+        "precio": "0",
+        "descripcion": "fdsdsf",
+        "marca": "qereqqq",
+        "stock": "567756"
+    }
+]

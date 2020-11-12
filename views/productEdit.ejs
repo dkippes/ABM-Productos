@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/productos/productEdit/<%= producto.id %>" method="POST">
+        <input type="hidden" name="id" value="<%= producto.id %>"><br>
+        <label for="nombre">NOMBRE:</label>
+        <input type="text" name="nombre" placeholder="nombre" value="<%= producto.nombre %>"><br>
+        <label for="precio">PRECIO:</label>
+        <input type="text" name="precio" placeholder="precio" value="<%= producto.precio %>"><br>
+        <label for="descripcion">DESCRIPCION:</label>
+        <input type="text" name="descripcion" placeholder="Describa el producto" value="<%= producto.descripcion %>"><br>
+        <label for="marca">MARCAS:</label>
+        <input type="text" name="marca" placeholder="Marcas" value="<%= producto.marca %>"><br>
+        <label for="stock">STOCK:</label>
+        <input type="text" name="stock" placeholder="Stock" value="<%= producto.stock %>"><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
