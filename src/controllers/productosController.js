@@ -5,12 +5,6 @@ const path = require('path');
 let productsJson = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../database/products.json'), 'utf-8'));
 
 let controller = {
-    home : (req, res, next) => {
-        res.send("Nada en especial, solo la pagina de /productos");
-    },
-
-
-
 
     //Crear producto
     createProductoView : (req, res, next) => {

@@ -5,7 +5,9 @@ let router = express.Router();
 let productosController = require('../controllers/productosController');
 
 //Router
-router.get('/', productosController.home);
+router.get('/', function(req, res, next) {
+    res.send('home productos');
+});
 
 router.get('/productAdd', productosController.createProductoView);
 router.post('/productAdd', productosController.storeProducto);
