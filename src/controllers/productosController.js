@@ -6,7 +6,7 @@ let productsJson = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../databa
 
 let controller = {
     home : (req, res, next) => {
-        res.render("productos");
+        res.send("Nada en especial, solo la pagina de /productos");
     },
 
 
